@@ -5,7 +5,7 @@ const random = require("random");
 const FILE_PATH = "./data.json";
 
 const makeCommit = (n) => {
-    if(n===0)return simpleGit().push();
+  if (n === 0) return simpleGit().push();
   const x = random.int(0, 54);
   const y = random.int(0, 6);
   const DATE = moment()
@@ -16,7 +16,6 @@ const makeCommit = (n) => {
     .format();
   const data = { date: DATE };
   console.log(DATE);
-
 
   jsonfile.writeFile(FILE_PATH, data, () => {
     simpleGit()
