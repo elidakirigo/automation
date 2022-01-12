@@ -1,0 +1,16 @@
+{
+  "name": "git-bot-main",
+  "version": "1.0.0",
+  "description": "cute",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jsonfile": "^6.1.0",
+    "moment": "^2.29.1",
+    "simple-git": "^2.48.0"
+  }
+}
