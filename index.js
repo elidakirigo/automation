@@ -20,7 +20,7 @@ const FILE_PATH = "./data.json";
 
 const makeCommit = (n) => {
   if (n === 0) return simpleGit().push();
-  const x = random.int(30, 70);
+  const x = random.int(10, 40);
   const y = random.int(0, 6);
   // const x = 4;
   // const y =4;
