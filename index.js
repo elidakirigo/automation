@@ -1,8 +1,15 @@
 /*----------------------------------------------------------------------------------------------------------------
-* this file uses the following npm packages 
+*
+*  -------------- this file uses the following npm packages -------------------------------
 * 1. moment.js
 * 2. simple-git.js
 * 3. random.js
+
+
+-------------------------------STEPS------------------------------------------
+* 1. do an npm init - this installs the node js files needed
+* 2. do a npm install jsonfile -
+* 3. do a npm install for moment, simple-git and random.
 ----------------------------------------------------------------------------------------------------------------*/
 
 const jsonfile = require("jsonfile");
