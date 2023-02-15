@@ -1,8 +1,15 @@
 /*----------------------------------------------------------------------------------------------------------------
-* this file uses the following npm packages 
+*
+*  -------------- this file uses the following npm packages -------------------------------
 * 1. moment.js
 * 2. simple-git.js
 * 3. random.js
+
+
+-------------------------------STEPS------------------------------------------
+* 1. do an npm init - this installs the node js files needed
+* 2. do a npm install jsonfile -
+* 3. do a npm install for moment, simple-git and random.
 ----------------------------------------------------------------------------------------------------------------*/
 
 const jsonfile = require("jsonfile");
@@ -13,7 +20,7 @@ const FILE_PATH = "./data.json";
 
 const makeCommit = (n) => {
   if (n === 0) return simpleGit().push();
-  const x = random.int(20, 40);
+  const x = random.int(40, 50);
   const y = random.int(0, 6);
   // const x = 4;
   // const y =4;
@@ -33,4 +40,4 @@ const makeCommit = (n) => {
       .push();
   });
 };
-makeCommit(100);
+makeCommit(200);
