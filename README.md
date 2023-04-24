@@ -1,1 +1,1 @@
-# git-bot-main
+# git-automation
