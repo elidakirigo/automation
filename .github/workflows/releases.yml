@@ -6,17 +6,14 @@ on:
 
 jobs:
   changelog:
-    runs-on: ubuntu-latest
-
+    runs-on: ubuntu-latest 
     steps:
-      - uses: actions/checkout@v2
-
+      - uses: actions/checkout@v2 
       - name: conventional Changelog Action
         id: changelog
         uses: TriPSs/conventional-changelog-action@v3.7.1
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-
+          github-token: ${{ secrets.GITHUB_TOKEN }} 
       - name: create release
         uses: actions/create-release@v1
         if: ${{ steps.changelog.outputs.skipped == 'false' }}
@@ -25,4 +22,4 @@ jobs:
         with:
           tag_name: ${{ steps.changelog.outputs.tag }}
           release_name: ${{ steps.changelog.outputs.tag }}
-          body: ${{ steps.changelog.outputs.clean_changelog }}
+          body: ${{ steps.changelog.outputs.clean_changelog }} 

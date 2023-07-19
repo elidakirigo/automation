@@ -4,11 +4,13 @@
   "description": "cute",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ncc build src/action.js -o dist"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@vercel/ncc": "^0.36.1",
     "jsonfile": "^6.1.0",
     "moment": "^2.29.1",
     "random": "^3.0.6",
