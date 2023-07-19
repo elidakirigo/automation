@@ -2,7 +2,7 @@ name: Greet Contributors
 on:
   fork:
   push:
-    branches: [main]
+    branches: [master, auto-flow]
   issues:
     types: [opened]
   issue_comment:
