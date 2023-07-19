@@ -10,4 +10,5 @@ jobs:
      - uses: actions/checkout@v2
      - uses: ./ 
        with: 
-         GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+         GITHUB_TOKEN: ${{secrets.MY_SECRET_TOKEN}}
+         TENOR_TOKEN: ${{secrets.MY_SECRET_TOKEN}}
