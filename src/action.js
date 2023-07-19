@@ -1,4 +1,4 @@
 async function run() {
-	console.log('hello world!');
+	console.log('hello world! github');
 }
 run()
