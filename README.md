@@ -16,4 +16,4 @@
 
  [![Open in GitPod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree) ![Uptime](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FEddieHubCommunity%2Fmonitoring%2Fmaster%2Fapi%2Flink-free-linkfree-io%2Fuptime.json) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/EddieHubCommunity/LinkFree)](https://github.com/EddieHubCommunity/LinkFree/releases) ![GitHub repo size](https://img.shields.io/github/repo-size/EddieHubCommunity/LinkFree)
 
- ![Example profile and statistics page on LinkFree with light and dark mode](https://user-images.githubusercontent.com/624760/230707268-1f8f1487-6524-4c89-aae2-ab45f0e17f39.png)
+![Example profile and statistics page on LinkFree with light and dark mode](https://user-images.githubusercontent.com/624760/230707268-1f8f1487-6524-4c89-aae2-ab45f0e17f39.png)
