@@ -1,4 +1,14 @@
 {
+  "git": {
+    "deploymentEnabled": false
+  },
+  "crons": [
+    {
+      "path": "/api/system/stats",
+      "schedule": "0 0 * * *"
+    }
+  ],
+  "installCommand": "npm ci --omit=dev",
   "redirects": [
     { 
       "source": "/docs/key-features/do-not-disturb", 
