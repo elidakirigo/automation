@@ -1,0 +1,14 @@
+name: Sveltefire Package
+
+on:
+    release:
+        types: [created]
+
+jobs:
+    build:
+
+    publish-npm:
+        needs: build
+
+    publish-gpr:
+        needs: build

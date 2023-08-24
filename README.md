@@ -12,6 +12,21 @@
  - [gmail app password](https://myaccount.google.com/apppasswords?pli=1&rapt=AEjHL4Mo0jbh08wJHheucQiPUFAQCS01HYfR_dOU9zvFueEEuO1fUhruFku0lR1K0FzcW-C7fROlkQdkZyzhp5NMHylXCPsWrQ)
  - [nodemailer](https://nodemailer.com/about/)
 
+# Adding Firebase to the repository - [fireship - io link](https://youtu.be/eB0nUzAI7M8?si=ZZFXqNwqLynkEFNz)
+- firabase login
+- firebase init 
+- firebase deploy --only hosting
+- firebase login:ci
+- github secrets - settings > secrets
+
+
+
+
+
+
+
+
+
  - Good Documentation setup
 
  [![Open in GitPod](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/EddieHubCommunity/LinkFree) ![Uptime](https://img.shields.io/endpoint?url=https%3A%2F%2Fraw.githubusercontent.com%2FEddieHubCommunity%2Fmonitoring%2Fmaster%2Fapi%2Flink-free-linkfree-io%2Fuptime.json) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) [![GitHub release (latest by date)](https://img.shields.io/github/v/release/EddieHubCommunity/LinkFree)](https://github.com/EddieHubCommunity/LinkFree/releases) ![GitHub repo size](https://img.shields.io/github/repo-size/EddieHubCommunity/LinkFree)
