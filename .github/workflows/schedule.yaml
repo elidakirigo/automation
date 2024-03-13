@@ -1,0 +1,16 @@
+name: Export Firebase Data
+
+on:
+    schedule:
+        - cron: '0 0 **'
+
+jobs:
+    runs-on: ubuntu-latest
+    steps:
+    -  uses: GoogleCloudPlatform/github/setup-gcloud@master 
+       with: 
+        service_account_key: ${{secrets.GCP_SA_KEY}}
+        export_default_credentials: true
+
+    - run: gcloud config set project $PROJECT_ID
+    - run: gcloud firestor export $BUCKET
