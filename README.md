@@ -22,6 +22,55 @@
 
 
 
+<!-- [@/assets/image/logo-light.svg](@/assets/image/logo-light.svg)
+
+[![Build Status][build-badge]][build]
+
+[![Code Coverage][coverage-badge]][coverage]
+[![version][version-badge]][package]
+[![downloads][downloads-badge]][npmtrends]
+[![MIT License][license-badge]][license]
+[![All Contributors][all-contributors-badge]](#contributors-)
+[![PRs Welcome][prs-badge]][prs]
+[![Code of Conduct][coc-badge]][coc] -->
+
+<!-- check - https://github.com/kentcdodds/cross-env/blob/master/README.md -->
+ [npm]: https://npmjs.com
+[node]: https://nodejs.org
+[build-badge]: https://img.shields.io/github/workflow/status/kentcdodds/cross-env/validate?logo=github&style=flat-square
+[build]: https://github.com/kentcdodds/cross-env/actions?query=workflow%3Avalidate
+[coverage-badge]: https://img.shields.io/codecov/c/github/kentcdodds/cross-env.svg?style=flat-square
+[coverage]: https://codecov.io/github/kentcdodds/cross-env
+[version-badge]: https://img.shields.io/npm/v/cross-env.svg?style=flat-square
+[package]: https://www.npmjs.com/package/cross-env
+[downloads-badge]: https://img.shields.io/npm/dm/cross-env.svg?style=flat-square
+[npmtrends]: http://www.npmtrends.com/cross-env
+[license-badge]: https://img.shields.io/npm/l/cross-env.svg?style=flat-square
+[license]: https://github.com/kentcdodds/cross-env/blob/master/LICENSE
+[prs-badge]: https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square
+[prs]: http://makeapullrequest.com
+[coc-badge]: https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat-square
+[coc]: https://github.com/kentcdodds/cross-env/blob/master/other/CODE_OF_CONDUCT.md
+[emojis]: https://allcontributors.org/docs/en/emoji-key
+[all-contributors]: https://github.com/all-contributors/all-contributors
+[all-contributors-badge]: https://img.shields.io/github/all-contributors/kentcdodds/cross-env?color=orange&style=flat-square
+[bugs]: https://github.com/kentcdodds/cross-env/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+label%3A%22%F0%9F%90%9B+Bug%22+sort%3Acreated-desc
+[good-first-issue]: https://github.com/kentcdodds/cross-env/issues?utf8=%E2%9C%93&q=is%3Aissue+is%3Aopen+sort%3Areactions-%2B1-desc+label%3A%22good+first+issue%22
+
+[angular-formly]: https://github.com/formly-js/angular-formly
+[cross-spawn]: https://www.npmjs.com/package/cross-spawn
+[malware]: http://blog.npmjs.org/post/163723642530/crossenv-malware-on-the-npm-registry
+[ts-loader]: https://www.npmjs.com/package/ts-loader
+[win-bash]: https://msdn.microsoft.com/en-us/commandline/wsl/about
+[![Pullrequest changes on Build  and Deploy](https://github.com/dogdb-org/dogdb-frontend/actions/workflows/deploy.yml/badge.svg?branch=main&event=pull_request)](https://github.com/dogdb-org/dogdb-frontend/actions/workflows/deploy.yml)
+
+[![Code Coverage][coverage-badge]][coverage]
+[![version][version-badge]][package]
+[![downloads][downloads-badge]][npmtrends]
+[![MIT License][license-badge]][license]
+[![All Contributors][all-contributors-badge]](#contributors-)
+[![PRs Welcome][prs-badge]][prs]
+[![Code of Conduct][coc-badge]][coc]
 
 
 
